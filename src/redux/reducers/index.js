@@ -1,5 +1,6 @@
+// index.js
 import { combineReducers } from 'redux';
-import contactsReducer from './redux/reducers/contactsReducer';
+import contactsReducer from './contactsReducer';
 
 const rootReducer = combineReducers({
   contacts: contactsReducer,
