@@ -10,8 +10,8 @@ const EstiloGlobal = createGlobalStyle `
 export default EstiloGlobal
 
 export const Container = styled.h1`
-    color: red;
-    background-color: yellow;
+    color: black;
+    background-color: rgb(238, 238, 238);
 `
 export const ContactForm = styled.button`
     color: green;
