@@ -9,3 +9,15 @@ export const addContact = (contact) => {
   export const editContact = (id, updatedContact) => {
     return { type: 'EDIT_CONTACT', payload: { id, updatedContact } };
   };
+
+  export const deleteContact = (id) => ({
+    type: 'DELETE_CONTACT',
+    payload: id,
+    });
+
+    export const updateContact = (id, updatedContact) => ({
+      type: 'UPDATE_CONTACT',
+      payload: { id, updatedContact },
+    });
+
+
