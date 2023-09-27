@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { updateContact } from '../actions';
+import { updateContact } from '../redux/actions/contactsActions';
 
 const EditContact = ({ contact, onClose }) => {
     const [name, setName] = useState(contact.name);

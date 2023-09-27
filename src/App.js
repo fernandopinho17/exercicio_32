@@ -5,7 +5,7 @@ import store from './redux/store';
 import GlobalStyles from './styles/GlobalStyles';
 import ContactList from './components/ContactList';
 import ContactForm from './components/ContactForm';
-import { Container } from './styles';
+import  Container  from './styles';
 
 
 const App = () => {
